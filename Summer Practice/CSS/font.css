@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Jost";
+    src: url(../fonts/Jost-ExtraBold.woff2) format("woff2");
+    font-weight: 800px;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(../fonts/Jost-Bold.woff2) format("woff2");
+    font-weight: 600px;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(../fonts/Jost-SemiBold.woff2) format("woff2");
+    font-weight: 500px;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(../fonts/Jost-Regular.woff2) format("woff2");
+    font-weight: 400px;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #1B1B1D;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.5s
+}
+
+a.shop{
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-left: 30px;
+    color: #1B1B1D;
+}
+p{
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    color: #64646A;
+}
+span{
+    width: 232px;
+    font-family: Jost;
+    font-size: 19px;
+    font-weight: 400;
+    color: #64646A;
+}
+h1{
+    font-family: Jost;
+    font-size: 124px;
+    font-weight: 800;
+    line-height: 140px;
+    color: #1B1B1D;
+    margin: 0;
+}
+h2{
+    font-family: Jost;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #1B1B1D;
+    margin: 0;
+}
+h3{
+    font-family: Jost;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #1B1B1D;
+    margin: 0;
+}
+a.finMyAlow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 221px;
+    font-size: 18px;
+    font-weight: 600;
+}
